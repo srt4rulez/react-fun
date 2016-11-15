@@ -1,7 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+function App() {
+    return (
+        <div className="container">
+            <h1 className="display-1">Hello World!</h1>
+        </div>
+    );
+}
+
 ReactDOM.render(
-    <h1>Hello, world!</h1>,
-    document.getElementById('root')
+    <App />,
+    document.getElementById('app')
 );
