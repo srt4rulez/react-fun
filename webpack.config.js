@@ -1,9 +1,12 @@
 module.exports = {
     context: __dirname + '\\js\\src',
-    entry: ['./hello-world.jsx'],
+    entry: {
+        'hello-world':    './hello-world.jsx',
+        'hello-visitor': './hello-visitor.jsx',
+    },
     output: {
         path: __dirname + '/js/dist/',
-        filename: 'bundle.js'
+        filename: '[name].bundle.js'
     },
     module: {
         loaders: [
