@@ -4,6 +4,7 @@ module.exports = {
         'hello-world':   './hello-world.jsx',
         'hello-visitor': './hello-visitor.jsx',
         'fizz-buzz':     './fizz-buzz.jsx',
+        'todo':          './todo.jsx',
     },
     output: {
         path: __dirname + '/js/dist/',
