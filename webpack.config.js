@@ -1,10 +1,11 @@
 module.exports = {
     context: __dirname + '\\js\\src',
     entry: {
-        'hello-world':   './hello-world.jsx',
-        'hello-visitor': './hello-visitor.jsx',
-        'fizz-buzz':     './fizz-buzz.jsx',
-        'todo':          './todo.jsx',
+        'hello-world':        './hello-world.jsx',
+        'hello-visitor':      './hello-visitor.jsx',
+        'fizz-buzz':          './fizz-buzz.jsx',
+        'todo':               './todo.jsx',
+        'markdown-previewer': './markdown-previewer.jsx',
     },
     output: {
         path: __dirname + '/js/dist/',
